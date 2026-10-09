@@ -1581,3 +1581,24 @@ a:hover {
   font-size: 12px;
   font-weight: 550;
 }
+
+/* mounting-oct26 figures v2 */
+.source-figure-pair > .figure-cell + .figure-cell { margin-top: 10px; }
+@media (min-width: 640px) {
+  .source-figure-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; align-items: start; }
+  .source-figure-pair > .figure-cell + .figure-cell { margin-top: 0; }
+  .source-figure-pair > figcaption { grid-column: 1 / -1; }
+}
+.source-figure img { max-height: 640px; width: auto; }
+.source-figure .figure-orig { display: block; margin-top: 4px; font-size: 12px; text-align: center; }
+.source-figure .figure-num { font-weight: 600; color: var(--ink); }
+.source-figure .figure-beside { display: block; margin-top: 4px; }
+.source-added { margin: 0.6em 0 1em; padding: 8px 12px; border-left: 3px solid var(--rule-strong); background: rgba(255, 255, 255, 0.45); font-size: 0.95em; }
+.source-added-tag { display: inline-block; margin-right: 6px; font-size: 11px; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; color: var(--muted); }
+.source-verbatim { margin: 2em 0 1em; padding: 10px 14px; border: 1px solid var(--rule-strong); border-radius: 10px; background: rgba(255, 255, 255, 0.4); }
+.source-verbatim > summary { cursor: pointer; font-weight: 600; }
+.source-verbatim .sv-note { color: var(--muted); font-size: 13px; }
+.source-verbatim .sv-heading { font-weight: 600; margin-top: 1.1em; }
+.source-verbatim .sv-figure { color: var(--faint); font-size: 13px; }
+.source-verbatim .sv-textbox { padding: 6px 10px; border: 1px dashed var(--rule-strong); border-radius: 6px; }
+.source-verbatim .sv-tag { font-size: 11px; font-weight: 600; text-transform: uppercase; color: var(--muted); margin-right: 6px; }
