@@ -1749,3 +1749,40 @@ a:hover { color: var(--navy); }
 }
 @media (max-width: 480px) { .shelf-navs { display: none; } }
 /* end CESCO style layer */
+
+/* === cescopedia editing system v1 (generated; do not edit) === */
+/* Version / archive / change-log additions. Uses the existing Cesco style variables. */
+.archive-banner { margin: 0 0 22px; padding: 10px 14px; border-radius: var(--radius-md, 8px); border-left: 4px solid var(--navy, #1e3a5f); background: #eaf0f7; color: var(--navy, #1e3a5f); font-size: 0.85rem; line-height: 1.5; }
+.archive-banner a { color: var(--navy, #1e3a5f); font-weight: 600; }
+.preview-banner { border-left-color: #c4891a; background: #fff8e6; color: #6b4a12; }
+.article-head + .archive-banner, .toc + .archive-banner { max-width: var(--measure, 760px); }
+.version-note { margin-top: 2.2em; padding-top: 10px; border-top: 1px solid var(--border, #d7dee8); color: var(--text2, #5a6b7d); font-size: 0.8rem; }
+.last-edits-head .last-edits-all { font-size: 0.8rem; color: var(--link, #2a5b9a); text-decoration: none; }
+.last-edits-head .last-edits-all:hover { text-decoration: underline; }
+.last-edits-list li .last-edit-links { display: flex; gap: 14px; padding: 0 2px 10px; font-size: 0.78rem; }
+.last-edits-list li .last-edit-links a { display: inline; padding: 0; font-size: 0.78rem; color: var(--link, #2a5b9a); }
+.cl-list { list-style: none; margin: 1em 0; padding: 0; }
+.cl-entry { margin: 0; padding: 14px 0; border-bottom: 1px solid var(--border, #d7dee8); }
+.cl-head { display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: baseline; font-family: var(--font-heading, inherit); font-weight: 600; color: var(--navy, #1e3a5f); }
+.cl-head time { font-variant-numeric: tabular-nums; }
+.cl-ver { font-size: 0.78rem; font-weight: 600; background: #eaf0f7; border-radius: 99px; padding: 1px 9px; }
+.cl-summary { margin: 6px 0 2px; }
+.cl-meta { margin: 2px 0; font-size: 0.8rem; color: var(--text2, #5a6b7d); }
+.cl-links { margin: 4px 0 0; font-size: 0.82rem; }
+.history-page .last-edits-empty { margin-top: 12px; }
+.diff-table { width: 100%; border-collapse: collapse; table-layout: fixed; margin-top: 14px; font-size: 0.88rem; }
+.diff-table th { text-align: left; background: var(--navy, #1e3a5f); color: #fff; padding: 8px 12px; font-size: 0.72rem; text-transform: uppercase; letter-spacing: .5px; }
+.diff-table td { vertical-align: top; padding: 8px 12px; border-bottom: 1px solid var(--border, #d7dee8); width: 50%; word-wrap: break-word; overflow-wrap: anywhere; }
+.diff-table .d-delete .d-old, .diff-table .d-replace .d-old { background: #fdecec; }
+.diff-table .d-insert .d-new, .diff-table .d-replace .d-new { background: #e7f6ea; }
+.diff-table .d-empty { background: #f5f6f8; }
+.diff-table del.d-del { background: #f8b4b4; color: #7a1010; text-decoration: line-through; }
+.diff-table ins.d-ins { background: #a8e3b5; color: #0d4a1c; text-decoration: none; }
+.diff-table .d-tag { display: inline-block; font-size: 0.65rem; font-weight: 700; text-transform: uppercase; color: var(--text2, #5a6b7d); margin-right: 6px; }
+.diff-table .d-h { font-weight: 700; color: var(--navy, #1e3a5f); }
+.diff-table .d-fig img { max-width: 100%; max-height: 180px; display: block; margin-bottom: 4px; border: 1px solid var(--border, #d7dee8); }
+.diff-table .d-cap { font-size: 0.78rem; color: var(--text2, #5a6b7d); }
+.diff-table .d-collapsed td { background: #fafbfc; }
+.diff-table .d-eq-item { padding: 4px 0; border-bottom: 1px dotted var(--border, #d7dee8); }
+.diff-table summary { cursor: pointer; color: var(--text2, #5a6b7d); }
+.last-edits-list li .last-edit-text { flex: 1 1 260px; min-width: 0; }
