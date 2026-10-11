@@ -1,0 +1,46 @@
+[
+  {
+    "id": "mudguards-v002",
+    "article": "mudguards",
+    "title": "Mudguards",
+    "from_version": 1,
+    "to_version": 2,
+    "date": "2026-10-11",
+    "approved_at": "2026-10-11T01:19:43+0000",
+    "approved_by": "methgamage",
+    "proposer": "methgamage",
+    "author_type": "human",
+    "proposal_id": "20261011-011943-27aa10",
+    "summary": "E2E TEST: add a test paragraph and picture (throwaway, will be reverted)",
+    "diff_summary": {
+      "paragraphs": {
+        "added": 1,
+        "removed": 0,
+        "changed": 0
+      },
+      "figures": {
+        "added": 1,
+        "removed": 0,
+        "changed": 0
+      },
+      "headings": {
+        "added": [],
+        "removed": [],
+        "renamed": []
+      },
+      "changed_headings": [],
+      "fields_changed": [],
+      "text": "paragraphs 1 added · figures 1 added",
+      "no_change": false
+    },
+    "conflict_acknowledged": false,
+    "archived_page": "archive-mudguards-v001.html",
+    "diff_page": "diff-mudguards-v001-v002.html",
+    "article_page": "mudguards.html",
+    "pr_number": 6,
+    "pr_url": "https://github.com/methgamage/cescopedia/pull/6",
+    "branch": "proposals/mudguards-20261011-011858",
+    "pr_author": "methgamage",
+    "proposal_dir": "mudguards-20261011-011858"
+  }
+]

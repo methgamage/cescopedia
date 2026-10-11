@@ -1,0 +1,41 @@
+{
+  "slug": "mudguards",
+  "version": 1,
+  "seed_date": "2026-10-09",
+  "title": "Mudguards",
+  "dek": "Chapter 7 — Truck Mounting Instructions, revised October 2026",
+  "description": "Steel/aluminium fabricated (factory-fitted), plastic (offset pole brackets, ≥160 mm tyre clearance) and rolled aluminium mudguards; 2 x 16 mm taillight grommets; mudflaps ≥50 mm from tyre.",
+  "canonical": null,
+  "nav_current": "mounting-manuals.html",
+  "crumbs": [
+    {
+      "label": "Cescopedia",
+      "href": "index.html"
+    },
+    {
+      "label": "Mounting manuals",
+      "href": "mounting-manuals.html"
+    },
+    {
+      "label": "Mudguards",
+      "href": null
+    }
+  ],
+  "approval": null,
+  "template": "mounting",
+  "kicker": "Mounting manuals",
+  "rail": {
+    "seed_history": [
+      "<li><time datetime=\"2026-10\">Oct 2026</time> — Source revision: Truck Mounting Instructions, “Revised: OCTOBER, 2026” (stated on the index cover). This file: CHAPTER 7 -  MUDGUARDS.docx; not shown in text (file modified 28/09/2026)</li>",
+      "<li><time datetime=\"2026-10-09\">2026-10-09</time> — Cescopedia seed from Emmanuel’s Oct 2026 encyclopedia set. No prior approved versions.</li>"
+    ],
+    "ecos_html": "<p class=\"rail-empty\">None recorded</p>",
+    "bulletins_html": "<p class=\"rail-empty\">None recorded</p>",
+    "author": "Cesco (source); encyclopedia seed by Emmanuel"
+  },
+  "toc": "none",
+  "search": {
+    "group": "Mounting manuals"
+  },
+  "figures": []
+}
