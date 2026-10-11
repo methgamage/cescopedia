@@ -1,0 +1,52 @@
+{
+  "slug": "start-up",
+  "version": 1,
+  "seed_date": "2026-10-09",
+  "title": "Initial Start Up Procedure — 90 Series",
+  "dek": "Chapter 9 — 90 Series (Chapter 9)",
+  "description": "Loosen bounce strap per Operators Manual; bypass pause valve with ¼\" ball valve; 10-micron filtered fluid; fill inlet line and pump/motor housings; start in neutral, idle, ramp; cycle chute jack; clos",
+  "canonical": null,
+  "nav_current": "mounting-manuals.html",
+  "crumbs": [
+    {
+      "label": "Cescopedia",
+      "href": "index.html"
+    },
+    {
+      "label": "Mounting manuals",
+      "href": "mounting-manuals.html"
+    },
+    {
+      "label": "Initial Start Up — 90 Series",
+      "href": null
+    }
+  ],
+  "approval": null,
+  "template": "mounting",
+  "kicker": "Mounting manuals",
+  "rail": {
+    "seed_history": [
+      "<li><time datetime=\"2026-10\">Oct 2026</time> — Source revision: Truck Mounting Instructions, “Revised: OCTOBER, 2026” (stated on the index cover). This file: CHAPTER 9 -  START UP-90 SERIES.docx; not shown in body text (file modified 29/09/2026)</li>",
+      "<li><time datetime=\"2026-10-09\">2026-10-09</time> — Cescopedia seed from Emmanuel’s Oct 2026 encyclopedia set. No prior approved versions.</li>"
+    ],
+    "ecos_html": "<p class=\"rail-empty\">None recorded</p>",
+    "bulletins_html": "<p class=\"rail-empty\">None recorded</p>",
+    "author": "Cesco (source); encyclopedia seed by Emmanuel"
+  },
+  "toc": "none",
+  "search": {
+    "group": "Mounting manuals"
+  },
+  "figures": [
+    {
+      "src": "assets/mounting-oct26/startup-ball-valve-1.jpg",
+      "alt": "Figure from source, p. 1.",
+      "caption": "Figure 1 of 2. Figure from source, p. 1. Source: CHAPTER 9 - START UP-90 SERIES.docx — image1.jpeg"
+    },
+    {
+      "src": "assets/mounting-oct26/startup-ball-valve-2.jpg",
+      "alt": "Figure from source, p. 3.",
+      "caption": "Figure 2 of 2. Figure from source, p. 3. Source: CHAPTER 9 - START UP-90 SERIES.docx — image2.jpeg"
+    }
+  ]
+}

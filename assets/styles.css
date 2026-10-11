@@ -1786,3 +1786,7 @@ a:hover { color: var(--navy); }
 .diff-table .d-eq-item { padding: 4px 0; border-bottom: 1px dotted var(--border, #d7dee8); }
 .diff-table summary { cursor: pointer; color: var(--text2, #5a6b7d); }
 .last-edits-list li .last-edit-text { flex: 1 1 260px; min-width: 0; }
+.edit-link { margin: 10px 0 0; font-size: 0.85rem; color: var(--text2, #5a6b7d); }
+.edit-link a { display: inline-block; padding: 4px 12px; border: 1px solid var(--navy, #1e3a5f); border-radius: 999px; color: var(--navy, #1e3a5f); text-decoration: none; font-weight: 600; font-family: var(--font-heading, inherit); font-size: 0.8rem; }
+.edit-link a:hover { background: var(--navy, #1e3a5f); color: #fff; }
+.edit-link span { font-size: 0.78rem; }

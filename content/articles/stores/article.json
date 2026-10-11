@@ -1,0 +1,27 @@
+{
+  "slug": "stores",
+  "version": 1,
+  "seed_date": "2026-10-09",
+  "title": "Stores & Logistics",
+  "dek": "Parts, kits, and the path from the store to the truck. Not written up yet.",
+  "description": "Parts, kits, and the path from the store to the truck. Not written up yet.",
+  "canonical": null,
+  "nav_current": "stores.html",
+  "crumbs": [
+    {
+      "label": "Cescopedia",
+      "href": "index.html"
+    },
+    {
+      "label": "Stores & Logistics",
+      "href": null
+    }
+  ],
+  "approval": null,
+  "template": "simple",
+  "toc": "auto",
+  "search": {
+    "group": null
+  },
+  "figures": []
+}

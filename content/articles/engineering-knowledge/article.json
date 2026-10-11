@@ -1,0 +1,28 @@
+{
+  "slug": "engineering-knowledge",
+  "version": 1,
+  "seed_date": "2026-10-09",
+  "title": "Engineering knowledge",
+  "dek": "The figures and drawings a mounting has to satisfy before it is signed off.",
+  "description": "The figures and drawings a mounting has to satisfy before it is signed off.",
+  "canonical": null,
+  "nav_current": "engineering-knowledge.html",
+  "crumbs": [
+    {
+      "label": "Cescopedia",
+      "href": "index.html"
+    },
+    {
+      "label": "Engineering knowledge",
+      "href": null
+    }
+  ],
+  "approval": null,
+  "template": "simple",
+  "toc": "auto",
+  "search": {
+    "group": "Engineering knowledge",
+    "anchors": true
+  },
+  "figures": []
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "axle-capacity",
+  "version": 1,
+  "seed_date": "2026-10-09",
+  "title": "Axle Capacity",
+  "dek": "What the chassis axles are rated to carry, and what the mixer asks of them.",
+  "description": "What the chassis axles are rated to carry, and what the mixer asks of them.",
+  "canonical": null,
+  "nav_current": "engineering-knowledge.html",
+  "crumbs": [
+    {
+      "label": "Cescopedia",
+      "href": "index.html"
+    },
+    {
+      "label": "Engineering knowledge",
+      "href": "engineering-knowledge.html"
+    },
+    {
+      "label": "Axle Capacity",
+      "href": null
+    }
+  ],
+  "approval": null,
+  "template": "simple",
+  "toc": "auto",
+  "search": {
+    "group": "Engineering knowledge"
+  },
+  "figures": []
+}

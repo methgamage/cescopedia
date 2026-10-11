@@ -1,0 +1,112 @@
+{
+  "slug": "mixer-mount",
+  "version": 1,
+  "seed_date": "2026-10-09",
+  "title": "Mixer Mounting",
+  "dek": "Chapter 2 — FWTO U-bolt, hold-down bracket and frameless mounts",
+  "description": "FWTO mounting: Section 1 U-bolts/fishplates (drawings 509051–509053), Section 2 hold-down brackets (dwg 509934, M16 10.9 bolts, Cone Lok nuts, 300 Nm), new Section 3 frameless mixer on chassis angles ",
+  "canonical": null,
+  "nav_current": "mounting-manuals.html",
+  "crumbs": [
+    {
+      "label": "Cescopedia",
+      "href": "index.html"
+    },
+    {
+      "label": "Mounting manuals",
+      "href": "mounting-manuals.html"
+    },
+    {
+      "label": "Mixer Mounting",
+      "href": null
+    }
+  ],
+  "approval": null,
+  "template": "mounting",
+  "kicker": "Mounting manuals",
+  "rail": {
+    "seed_history": [
+      "<li><time datetime=\"2026-10\">Oct 2026</time> — Source revision: Truck Mounting Instructions, “Revised: OCTOBER, 2026” (stated on the index cover). This file: CHAPTER 2 -  MIXER MOUNT.docx; not shown in text (file modified 29/09/2026; footer page/file ref &quot;File MOUNT INSTRUCT MIXER MOUNT.&quot;)</li>",
+      "<li><time datetime=\"2026-10-09\">2026-10-09</time> — Cescopedia seed from Emmanuel’s Oct 2026 encyclopedia set. No prior approved versions.</li>"
+    ],
+    "ecos_html": "<p class=\"rail-empty\">None recorded</p>",
+    "bulletins_html": "<p class=\"rail-empty\">None recorded</p>",
+    "author": "Cesco (source); encyclopedia seed by Emmanuel"
+  },
+  "toc": "none",
+  "search": {
+    "group": "Mounting manuals"
+  },
+  "figures": [
+    {
+      "src": "assets/mounting-oct26/mixer-splash-tray-1.jpg",
+      "alt": "Figure from source, p. 4.",
+      "caption": "Figure 1 of 19. Figure from source, p. 4. Source: CHAPTER 2 - MIXER MOUNT.docx — image1.jpeg"
+    },
+    {
+      "src": "assets/mounting-oct26/mixer-splash-tray-2.jpg",
+      "alt": "Figure from source, p. 5.",
+      "caption": "Figure 2 of 19. Figure from source, p. 5. Source: CHAPTER 2 - MIXER MOUNT.docx — image2.jpeg"
+    },
+    {
+      "src": "assets/mounting-oct26/mixer-splash-tray-3.jpg",
+      "alt": "Figure from source, p. 5.",
+      "caption": "Figure 3 of 19. Figure from source, p. 5. Source: CHAPTER 2 - MIXER MOUNT.docx — image3.jpeg"
+    },
+    {
+      "src": "assets/mounting-oct26/mixer-splash-tray-4.jpg",
+      "alt": "Figure from source, p. 6.",
+      "caption": "Figure 4 of 19. Figure from source, p. 6. Source: CHAPTER 2 - MIXER MOUNT.docx — image4.jpeg"
+    },
+    {
+      "src": "assets/mounting-oct26/mixer-frameless-1.jpg",
+      "alt": "Figure from source, p. 8.",
+      "caption": "Figure 5 of 19. Figure from source, p. 8. Source: CHAPTER 2 - MIXER MOUNT.docx — image5.jpeg"
+    },
+    {
+      "src": "assets/mounting-oct26/mixer-rear-pedestal-mark.jpg",
+      "alt": "Figure from source, p. 9. Text-box labels on the source figure: “Truck Chassis”, “Truck Chassis Angle”, “Position mark on truck chassis corresponding to Point A”.",
+      "caption": "Figure 6 of 19. Figure from source, p. 9. Text-box labels on the source figure: “Truck Chassis”, “Truck Chassis Angle”, “Position mark on truck chassis corresponding to Point A”. Source: CHAPTER 2 - MIXER MOUNT.docx — image6.jpeg"
+    },
+    {
+      "src": "assets/mounting-oct26/mixer-rear-pedestal-2.jpg",
+      "alt": "Figure from source, p. 9. (left photo) / Figure from source, p. 9. (right photo)",
+      "caption": "Figures 7–8 of 19. Figure from source, p. 9. Source: CHAPTER 2 - MIXER MOUNT.docx — image7.jpeg, image8.jpeg"
+    },
+    {
+      "src": "assets/mounting-oct26/mixer-front-pedestal-1.jpg",
+      "alt": "Figure from source, p. 10. (left photo) / Figure from source, p. 10. (right photo)",
+      "caption": "Figures 9–10 of 19. Figure from source, p. 10. Source: CHAPTER 2 - MIXER MOUNT.docx — image9.jpeg, image10.jpeg"
+    },
+    {
+      "src": "assets/mounting-oct26/mixer-front-pedestal-mark.jpg",
+      "alt": "Figure from source, p. 10. Text-box label on the source figure: “Marked position of front pedestal front edge.”",
+      "caption": "Figure 11 of 19. Figure from source, p. 10. Text-box label on the source figure: “Marked position of front pedestal front edge.” Source: CHAPTER 2 - MIXER MOUNT.docx — image11.jpeg"
+    },
+    {
+      "src": "assets/mounting-oct26/mixer-front-pedestal-base-plate.jpg",
+      "alt": "Figure from source, p. 11. Text-box label on the source figure: “Front Pedestal base plate.”",
+      "caption": "Figure 12 of 19. Figure from source, p. 11. Text-box label on the source figure: “Front Pedestal base plate.” Source: CHAPTER 2 - MIXER MOUNT.docx — image12.jpeg"
+    },
+    {
+      "src": "assets/mounting-oct26/mixer-foot-plate-1.jpg",
+      "alt": "Figure from source, p. 11. Text-box label on the source figure (right photo): “Foot Plate”. (left photo) / Figure from source, p. 11. Text-box label on the source figure (right photo): “Foot Plate”. (right photo)",
+      "caption": "Figures 13–14 of 19. Figure from source, p. 11. Text-box label on the source figure (right photo): “Foot Plate”. Source: CHAPTER 2 - MIXER MOUNT.docx — image13.jpeg, image14.jpeg"
+    },
+    {
+      "src": "assets/mounting-oct26/mixer-assembly-1.jpg",
+      "alt": "Figure from source, p. 12. (left photo) / Figure from source, p. 12. (right photo)",
+      "caption": "Figures 15–16 of 19. Figure from source, p. 12. Source: CHAPTER 2 - MIXER MOUNT.docx — image15.jpeg, image16.jpeg"
+    },
+    {
+      "src": "assets/mounting-oct26/mixer-assembly-3.jpg",
+      "alt": "Figure from source, p. 12. (left photo) / Figure from source, p. 12. (right photo)",
+      "caption": "Figures 17–18 of 19. Figure from source, p. 12. Source: CHAPTER 2 - MIXER MOUNT.docx — image17.jpeg, image18.jpeg"
+    },
+    {
+      "src": "assets/mounting-oct26/mixer-assembly-5.jpg",
+      "alt": "Figure from source, p. 12.",
+      "caption": "Figure 19 of 19. Figure from source, p. 12. Source: CHAPTER 2 - MIXER MOUNT.docx — image19.jpeg"
+    }
+  ]
+}

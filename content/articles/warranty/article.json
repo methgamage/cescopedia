@@ -1,0 +1,27 @@
+{
+  "slug": "warranty",
+  "version": 1,
+  "seed_date": "2026-10-09",
+  "title": "Warranty",
+  "dek": "Coverage and claims. Not written up yet.",
+  "description": "Coverage and claims. Not written up yet.",
+  "canonical": null,
+  "nav_current": "warranty.html",
+  "crumbs": [
+    {
+      "label": "Cescopedia",
+      "href": "index.html"
+    },
+    {
+      "label": "Warranty",
+      "href": null
+    }
+  ],
+  "approval": null,
+  "template": "simple",
+  "toc": "auto",
+  "search": {
+    "group": null
+  },
+  "figures": []
+}

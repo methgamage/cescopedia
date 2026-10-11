@@ -1,0 +1,31 @@
+{
+  "slug": "mixer-cg",
+  "version": 1,
+  "seed_date": "2026-10-09",
+  "title": "Mixer CG",
+  "dek": "Center of gravity of the mixer body, used when the chassis is approved.",
+  "description": "Center of gravity of the mixer body, used when the chassis is approved.",
+  "canonical": null,
+  "nav_current": "engineering-knowledge.html",
+  "crumbs": [
+    {
+      "label": "Cescopedia",
+      "href": "index.html"
+    },
+    {
+      "label": "Engineering knowledge",
+      "href": "engineering-knowledge.html"
+    },
+    {
+      "label": "Mixer CG",
+      "href": null
+    }
+  ],
+  "approval": null,
+  "template": "simple",
+  "toc": "auto",
+  "search": {
+    "group": "Engineering knowledge"
+  },
+  "figures": []
+}

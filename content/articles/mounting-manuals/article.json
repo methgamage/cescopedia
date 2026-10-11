@@ -1,0 +1,72 @@
+{
+  "slug": "mounting-manuals",
+  "version": 1,
+  "seed_date": "2026-10-09",
+  "title": "Mounting manuals",
+  "dek": "Cesco Truck Mounting Instructions, revised October 2026: the index and Chapters 1–10 in chapter order. All articles are unapproved encyclopedia seeds until Meth / EA review.",
+  "description": "Cesco Truck Mounting Instructions, revised October 2026 — index and Chapters 1–10.",
+  "canonical": null,
+  "nav_current": "mounting-manuals.html",
+  "crumbs": [
+    {
+      "label": "Cescopedia",
+      "href": "index.html"
+    },
+    {
+      "label": "Mounting manuals",
+      "href": null
+    }
+  ],
+  "approval": null,
+  "template": "simple",
+  "toc": [
+    {
+      "id": "index-oct26",
+      "label": "Index · Index (Oct 2026)"
+    },
+    {
+      "id": "unpacking",
+      "label": "Ch 1 · Unpacking"
+    },
+    {
+      "id": "mixer-mount",
+      "label": "Ch 2 · Mixer Mounting"
+    },
+    {
+      "id": "hydraulics",
+      "label": "Ch 3 · Hydraulics"
+    },
+    {
+      "id": "driveline",
+      "label": "Ch 4 · Drive Line"
+    },
+    {
+      "id": "water-system",
+      "label": "Ch 5 · Water System"
+    },
+    {
+      "id": "electrical",
+      "label": "Ch 6 · Electrical & Remote Control"
+    },
+    {
+      "id": "mudguards",
+      "label": "Ch 7 · Mudguards"
+    },
+    {
+      "id": "options",
+      "label": "Ch 8 · Options"
+    },
+    {
+      "id": "start-up",
+      "label": "Ch 9 · Initial Start Up — 90 Series"
+    },
+    {
+      "id": "decals",
+      "label": "Ch 10 · Decals"
+    }
+  ],
+  "search": {
+    "group": null
+  },
+  "figures": []
+}

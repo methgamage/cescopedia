@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<base href="../">
+<title>Edit article — Cescopedia</title><meta name="robots" content="noindex">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/styles.css"><link rel="stylesheet" href="edit/editor.css"></head>
+<body class="admin">
+<header class="site-header" id="site-header"><div class="header-inner">
+<a class="wordmark" href="index.html"><img class="wordmark-logo" src="assets/logo/cesco-logo-colour.png" alt="CESCO" width="52" height="62"><span class="wordmark-text">Cescopedia editor</span></a>
+<div></div>
+<div class="header-right adm-nav"><a href="index.html">Home</a><a href="changelog.html">Change log</a></div>
+</div></header>
+<main class="admin-main admin-wide edit-main" id="edit-main">
+<noscript><p>The editor needs JavaScript.</p></noscript>
+<div id="ed-load" class="notice info">Loading the article…</div>
+<div id="ed-body" hidden>
+<div class="ed-top"><a href="index.html" id="back-link">← Cescopedia</a>
+<h1 id="ed-h1">Edit</h1><div id="ed-status"></div></div>
+<div id="ed-pending"></div>
+<div class="notice info small">Your edit is <strong>not published</strong> when you submit. <strong>Submit for approval</strong> opens a pull request on GitHub; the live page changes only after the owner (Meth) merges it. Pictures are resized and compressed in your browser.</div>
+<div class="ed-fields"><label>Title<input id="f-title"></label>
+<label>Subtitle<input id="f-dek"></label>
+<details><summary>Page description (search engines / link previews)</summary><textarea id="f-desc" rows="2"></textarea></details></div>
+<div class="ed-toolbar" id="toolbar" role="toolbar" aria-label="Formatting">
+<button type="button" data-cmd="bold" title="Bold (Ctrl+B)"><b>B</b></button>
+<button type="button" data-cmd="italic" title="Italic (Ctrl+I)"><i>I</i></button>
+<button type="button" data-cmd="underline" title="Underline (Ctrl+U)"><u>U</u></button>
+<span class="sep"></span>
+<button type="button" data-block="p" title="Normal paragraph">¶</button>
+<button type="button" data-block="h2" title="Heading 2">H2</button>
+<button type="button" data-block="h3" title="Heading 3">H3</button>
+<span class="sep"></span>
+<button type="button" data-cmd="insertUnorderedList" title="Bullet list">• List</button>
+<button type="button" data-cmd="insertOrderedList" title="Numbered list">1. List</button>
+<span class="sep"></span>
+<button type="button" id="tb-table" title="Insert table">Table</button>
+<button type="button" data-tbl="row+" title="Add row below" class="tbl-only">+Row</button>
+<button type="button" data-tbl="col+" title="Add column right" class="tbl-only">+Col</button>
+<button type="button" data-tbl="row-" title="Delete row" class="tbl-only">−Row</button>
+<button type="button" data-tbl="col-" title="Delete column" class="tbl-only">−Col</button>
+<button type="button" data-tbl="del" title="Delete table" class="tbl-only">✕Table</button>
+<span class="sep"></span>
+<button type="button" id="tb-link" title="Insert / edit link">Link</button>
+<button type="button" data-cmd="unlink" title="Remove link">Unlink</button>
+<span class="sep"></span>
+<button type="button" id="tb-figure" title="Insert picture with caption">🖼 Picture</button>
+<span class="sep"></span>
+<button type="button" id="tb-undo" title="Undo (Ctrl+Z)">↶ Undo</button>
+<button type="button" id="tb-redo" title="Redo (Ctrl+Y)">↷ Redo</button>
+<button type="button" id="tb-clear" title="Clear formatting">Clear format</button>
+</div>
+<div class="ed-figpanel" id="figpanel" hidden></div>
+<div class="ed-page page-article"><div class="article-layout ed-layout"><div class="article-main"><article id="editor" class="prose prose-article" contenteditable="true" spellcheck="true"></article></div></div></div>
+<div class="ed-actions"><button class="btn primary" type="button" id="submit-btn">Submit for approval…</button><span class="msg" id="ed-msg"></span></div>
+</div>
+<div id="ed-pick" hidden><h1>Choose an article to edit</h1><ul id="pick-list"></ul></div>
+<dialog id="dlg-figure"><form method="dialog" id="figform"><h3>Insert picture</h3>
+<div class="drop" id="dropzone">Drop a picture here, paste one into the page, or <label class="btn small">choose a file<input type="file" id="fig-file" accept="image/*" hidden></label></div>
+<img id="fig-preview" alt="" hidden>
+<label>Caption (required)<textarea id="fig-caption" rows="2"></textarea></label>
+<label>Alt text (describes the picture for screen readers; defaults to the caption)<input id="fig-alt"></label>
+<div class="row"><button class="btn" type="button" id="fig-cancel">Cancel</button><button class="btn primary" type="button" id="fig-insert" disabled>Insert</button><span class="msg" id="fig-msg"></span></div></form></dialog>
+<dialog id="dlg-link"><form method="dialog"><h3>Link</h3><label>Address (https://… or a page such as mixer-mount.html)<input id="link-url"></label>
+<div class="row"><button class="btn" type="button" id="link-cancel">Cancel</button><button class="btn primary" type="button" id="link-ok">Apply</button></div></form></dialog>
+<dialog id="dlg-table"><form method="dialog"><h3>Insert table</h3><label>Rows (excluding header)<input id="tbl-rows" type="number" min="1" max="30" value="3"></label><label>Columns<input id="tbl-cols" type="number" min="1" max="12" value="3"></label>
+<div class="row"><button class="btn" type="button" id="tbl-cancel">Cancel</button><button class="btn primary" type="button" id="tbl-ok">Insert</button></div></form></dialog>
+<dialog id="dlg-submit"><form method="dialog" onsubmit="return false"><h3>Submit for approval</h3>
+<p class="muted">This opens a pull request. The live page does not change until the owner merges it.</p>
+<label>What did you change, and why? (required)<textarea id="sub-summary" rows="4"></textarea></label>
+<div class="tokbox"><div id="auth-out"><strong>Sign in with GitHub</strong> — paste a personal access token. It is kept in this page's memory only (never saved, never sent anywhere except api.github.com) and is forgotten when you close or reload the page.
+<ul><li><strong>Owner / collaborator:</strong> a <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">fine-grained token</a> limited to <code>methgamage/cescopedia</code> with <em>Contents: read &amp; write</em> and <em>Pull requests: read &amp; write</em>.</li>
+<li><strong>Anyone else:</strong> a <a href="https://github.com/settings/tokens/new?scopes=public_repo&description=Cescopedia%20editor" target="_blank" rel="noopener">classic token</a> with <code>public_repo</code>; your edit is sent from a fork of the repository.</li></ul>
+<label>GitHub token<input id="tok-input" type="password" autocomplete="off" spellcheck="false" placeholder="github_pat_… or ghp_…"></label>
+<button class="btn small" type="button" id="tok-ok">Sign in</button></div>
+<div id="auth-in" hidden>Signed in as <strong id="auth-who"></strong> <button class="btn small" type="button" id="tok-out">Sign out (forget token)</button></div></div>
+<div class="row"><button class="btn" type="button" id="sub-cancel">Close</button><button class="btn primary" type="button" id="sub-ok">Submit pull request</button><span class="msg" id="sub-msg"></span></div>
+<p class="muted">No token? <button class="btn small" type="button" id="sub-download">Download proposal files</button> and drag them onto GitHub's upload page (instructions appear after the download).</p>
+<div id="sub-result"></div></form></dialog>
+</main>
+<script src="edit/images.js"></script><script src="edit/gh.js"></script><script src="edit/editor.js"></script><script src="edit/start.js"></script>
+</body></html>

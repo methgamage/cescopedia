@@ -1,0 +1,10 @@
+{
+  "site_dir": "..",
+  "content_dir": "../content",
+  "secrets_dir": "../.no-secrets-here",
+  "approvers": ["methgamage"],
+  "max_image_px": 1600,
+  "jpeg_quality": 82,
+  "repo": "methgamage/cescopedia",
+  "site_url": "https://methgamage.github.io/cescopedia/"
+}

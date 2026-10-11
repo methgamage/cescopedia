@@ -1,0 +1,72 @@
+{
+  "sections": [
+    {
+      "title": "Mounting manuals",
+      "href": "mounting-manuals.html"
+    },
+    {
+      "title": "Engineering knowledge",
+      "href": "engineering-knowledge.html"
+    },
+    {
+      "title": "Stores & Logistics",
+      "href": "stores.html"
+    },
+    {
+      "title": "Warranty",
+      "href": "warranty.html"
+    }
+  ],
+  "order": [
+    "mounting-manuals",
+    "index-oct26",
+    "unpacking",
+    "mixer-mount",
+    "hydraulics",
+    "driveline",
+    "water-system",
+    "electrical",
+    "mudguards",
+    "options",
+    "start-up",
+    "decals",
+    "engineering-knowledge",
+    "stores",
+    "warranty",
+    "drawings",
+    "axle-capacity",
+    "mixer-cg"
+  ],
+  "chapters": [
+    "index-oct26",
+    "unpacking",
+    "mixer-mount",
+    "hydraulics",
+    "driveline",
+    "water-system",
+    "electrical",
+    "mudguards",
+    "options",
+    "start-up",
+    "decals"
+  ],
+  "aliases": {
+    "stores-logistics": "stores"
+  },
+  "search_order": [
+    "index-oct26",
+    "unpacking",
+    "mixer-mount",
+    "hydraulics",
+    "driveline",
+    "water-system",
+    "electrical",
+    "mudguards",
+    "options",
+    "start-up",
+    "decals",
+    "drawings",
+    "axle-capacity",
+    "mixer-cg"
+  ]
+}

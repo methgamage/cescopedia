@@ -1,0 +1,41 @@
+{
+  "slug": "unpacking",
+  "version": 1,
+  "seed_date": "2026-10-09",
+  "title": "Unpacking",
+  "dek": "Chapter 1 — Truck Mounting Instructions, revised October 2026",
+  "description": "Check mounting kits against Shipping List within 48 h and return Delivery Confirmation Advice to Cesco Brisbane by email (info@cescoaustralia.com, attn Stores Supervisor); touch-up paint advice via sa",
+  "canonical": null,
+  "nav_current": "mounting-manuals.html",
+  "crumbs": [
+    {
+      "label": "Cescopedia",
+      "href": "index.html"
+    },
+    {
+      "label": "Mounting manuals",
+      "href": "mounting-manuals.html"
+    },
+    {
+      "label": "Unpacking",
+      "href": null
+    }
+  ],
+  "approval": null,
+  "template": "mounting",
+  "kicker": "Mounting manuals",
+  "rail": {
+    "seed_history": [
+      "<li><time datetime=\"2026-10\">Oct 2026</time> — Source revision: Truck Mounting Instructions, “Revised: OCTOBER, 2026” (stated on the index cover). This file: CHAPTER 1 - UNPACKING.doc; not shown in text (file modified 29/09/2026)</li>",
+      "<li><time datetime=\"2026-10-09\">2026-10-09</time> — Cescopedia seed from Emmanuel’s Oct 2026 encyclopedia set. No prior approved versions.</li>"
+    ],
+    "ecos_html": "<p class=\"rail-empty\">None recorded</p>",
+    "bulletins_html": "<p class=\"rail-empty\">None recorded</p>",
+    "author": "Cesco (source); encyclopedia seed by Emmanuel"
+  },
+  "toc": "none",
+  "search": {
+    "group": "Mounting manuals"
+  },
+  "figures": []
+}

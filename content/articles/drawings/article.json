@@ -1,0 +1,31 @@
+{
+  "slug": "drawings",
+  "version": 1,
+  "seed_date": "2026-10-09",
+  "title": "Drawings",
+  "dek": "General arrangement and interface drawings for the mixer on the chassis.",
+  "description": "General arrangement and interface drawings for the mixer on the chassis.",
+  "canonical": null,
+  "nav_current": "engineering-knowledge.html",
+  "crumbs": [
+    {
+      "label": "Cescopedia",
+      "href": "index.html"
+    },
+    {
+      "label": "Engineering knowledge",
+      "href": "engineering-knowledge.html"
+    },
+    {
+      "label": "Drawings",
+      "href": null
+    }
+  ],
+  "approval": null,
+  "template": "simple",
+  "toc": "auto",
+  "search": {
+    "group": "Engineering knowledge"
+  },
+  "figures": []
+}

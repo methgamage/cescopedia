@@ -1,0 +1,15 @@
+# never commit secrets or local state
+.env
+*.pem
+*token*
+!tools/lib/*.py
+secrets/
+.no-secrets-here/
+content/.lock
+content/pending/
+content/resolved/
+content/drafts/
+content/staging/
+content/history.jsonl
+__pycache__/
+*.pyc

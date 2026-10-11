@@ -1,0 +1,52 @@
+{
+  "slug": "hydraulics",
+  "version": 1,
+  "seed_date": "2026-10-09",
+  "title": "Hydraulics",
+  "dek": "Chapter 3 — hoses, fittings and swivel chute raise/lower",
+  "description": "Hoses & fittings supplied as a truck-specific kit. Text is minimal; content is two embedded drawings: 500371 (Hydraulics hoses and fittings F.B.U. JIC fittings kit ex HCM, Rev A) and 500360 (Kit – chu",
+  "canonical": null,
+  "nav_current": "mounting-manuals.html",
+  "crumbs": [
+    {
+      "label": "Cescopedia",
+      "href": "index.html"
+    },
+    {
+      "label": "Mounting manuals",
+      "href": "mounting-manuals.html"
+    },
+    {
+      "label": "Hydraulics",
+      "href": null
+    }
+  ],
+  "approval": null,
+  "template": "mounting",
+  "kicker": "Mounting manuals",
+  "rail": {
+    "seed_history": [
+      "<li><time datetime=\"2026-10\">Oct 2026</time> — Source revision: Truck Mounting Instructions, “Revised: OCTOBER, 2026” (stated on the index cover). This file: CHAPTER 3 -  HYDRAULICS.docx; not shown in text (file modified 01/10/2026). Embedded drawings: 500371 Rev A; 500360 Rev D (01/10/2025)</li>",
+      "<li><time datetime=\"2026-10-09\">2026-10-09</time> — Cescopedia seed from Emmanuel’s Oct 2026 encyclopedia set. No prior approved versions.</li>"
+    ],
+    "ecos_html": "<ul class=\"rail-list\">\n            <li>M0620 — Rev A, new part (BJG 02/07/2008)</li>\n            <li>M0640 — Rev B, new oil reservoir, filter and fittings (EDB 09/12/2009)</li>\n            <li>M0747 — Rev C, changed hose lengths and fittings for control valve position (MK 21/10/15)</li>\n            <li>M1042 — Rev D, item no 13 matched the actual kit &amp; all-in-one cooler added (MG 01/10/2025)</li>\n          </ul>\n          <p class=\"rail-flag\">Read from the revision block of embedded drawing 500360 (an image), not from text. These ECO numbers need checking against the drawing register.</p>",
+    "bulletins_html": "<p class=\"rail-empty\">None recorded</p>",
+    "author": "Cesco (source); encyclopedia seed by Emmanuel"
+  },
+  "toc": "none",
+  "search": {
+    "group": "Mounting manuals"
+  },
+  "figures": [
+    {
+      "src": "assets/mounting-oct26/hydraulics-500371.png",
+      "alt": "Drawing 500371 — “shows a typical, general hydraulic layout” (source text), p. 1.",
+      "caption": "Figure 1 of 2. Drawing 500371 — “shows a typical, general hydraulic layout” (source text), p. 1. Source: CHAPTER 3 - HYDRAULICS.docx — image1.png"
+    },
+    {
+      "src": "assets/mounting-oct26/hydraulics-500360.png",
+      "alt": "Drawing 500360 — “shows the layout and fittings for the hydraulic swivel chute raise and lower system” (source text), p. 2.",
+      "caption": "Figure 2 of 2. Drawing 500360 — “shows the layout and fittings for the hydraulic swivel chute raise and lower system” (source text), p. 2. Source: CHAPTER 3 - HYDRAULICS.docx — image2.png"
+    }
+  ]
+}

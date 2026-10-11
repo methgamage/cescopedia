@@ -1,0 +1,52 @@
+{
+  "slug": "electrical",
+  "version": 1,
+  "seed_date": "2026-10-09",
+  "title": "Electrical & Remote Control",
+  "dek": "Chapter 6 — heat exchanger fan (AGICON / AGI-Drive), remote controls",
+  "description": "Heat exchanger fan wiring for AGICON (SK-5537) and AGI-Drive (SK-5538) remote controls; 30 A circuit breaker for both 12 V and 24 V; relay fault table; remote-control important points (auto park/neutr",
+  "canonical": null,
+  "nav_current": "mounting-manuals.html",
+  "crumbs": [
+    {
+      "label": "Cescopedia",
+      "href": "index.html"
+    },
+    {
+      "label": "Mounting manuals",
+      "href": "mounting-manuals.html"
+    },
+    {
+      "label": "Electrical & Remote Control",
+      "href": null
+    }
+  ],
+  "approval": null,
+  "template": "mounting",
+  "kicker": "Mounting manuals",
+  "rail": {
+    "seed_history": [
+      "<li><time datetime=\"2026-10\">Oct 2026</time> — Source revision: Truck Mounting Instructions, “Revised: OCTOBER, 2026” (stated on the index cover). This file: CHAPTER 6 -  ELECTRICAL.docx; not shown in body text (file modified 28/09/2026). Embedded SK-5537 dated 10/10/25; SK-5538 label &quot;Feb. 2025&quot;</li>",
+      "<li><time datetime=\"2026-10-09\">2026-10-09</time> — Cescopedia seed from Emmanuel’s Oct 2026 encyclopedia set. No prior approved versions.</li>"
+    ],
+    "ecos_html": "<p class=\"rail-empty\">None recorded</p>",
+    "bulletins_html": "<p class=\"rail-empty\">None recorded</p>",
+    "author": "Cesco (source); encyclopedia seed by Emmanuel"
+  },
+  "toc": "none",
+  "search": {
+    "group": "Mounting manuals"
+  },
+  "figures": [
+    {
+      "src": "assets/mounting-oct26/electrical-sk5537.png",
+      "alt": "SK – 5537 — “showing the connections for both 12-volt and 24-volt vehicles using the AGICON controls” (source text), p. 2.",
+      "caption": "Figure 1 of 2. SK – 5537 — “showing the connections for both 12-volt and 24-volt vehicles using the AGICON controls” (source text), p. 2. Source: CHAPTER 6 - ELECTRICAL.docx — image1.png"
+    },
+    {
+      "src": "assets/mounting-oct26/electrical-sk5538.jpg",
+      "alt": "SK – 5538 — “showing the connections for both 12-volt and 24-volt vehicles using the AGI-Drive controls” (source text), p. 2. Text boxes on the source figure: “SK - 5538”, “Feb. 2025”, “CESCO AUSTRALIA LIMITED” (very light grey text in the source, with a few black overflow letters).",
+      "caption": "Figure 2 of 2. SK – 5538 — “showing the connections for both 12-volt and 24-volt vehicles using the AGI-Drive controls” (source text), p. 2. Text boxes on the source figure: “SK - 5538”, “Feb. 2025”, “CESCO AUSTRALIA LIMITED” (very light grey text in the source, with a few black overflow letters). Source: CHAPTER 6 - ELECTRICAL.docx — image2.jpeg"
+    }
+  ]
+}

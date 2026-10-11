@@ -1,0 +1,57 @@
+{
+  "slug": "water-system",
+  "version": 1,
+  "seed_date": "2026-10-09",
+  "title": "Water System",
+  "dek": "Chapter 5 — tank, hold-back valve, regulator",
+  "description": "Tank supplied mounted or loose, fittings loose; hold-back valve per VSB6 on auxiliary tank, port 2 in / port 3 out, opens 620 kPa (90 psi) closes 607 kPa (88 psi); J-brackets bolted never welded; dril",
+  "canonical": null,
+  "nav_current": "mounting-manuals.html",
+  "crumbs": [
+    {
+      "label": "Cescopedia",
+      "href": "index.html"
+    },
+    {
+      "label": "Mounting manuals",
+      "href": "mounting-manuals.html"
+    },
+    {
+      "label": "Water System",
+      "href": null
+    }
+  ],
+  "approval": null,
+  "template": "mounting",
+  "kicker": "Mounting manuals",
+  "rail": {
+    "seed_history": [
+      "<li><time datetime=\"2026-10\">Oct 2026</time> — Source revision: Truck Mounting Instructions, “Revised: OCTOBER, 2026” (stated on the index cover). This file: CHAPTER 5 -  WATER SYS.docx; not shown in text (file modified 28/09/2026)</li>",
+      "<li><time datetime=\"2026-10-09\">2026-10-09</time> — Cescopedia seed from Emmanuel’s Oct 2026 encyclopedia set. No prior approved versions.</li>"
+    ],
+    "ecos_html": "<p class=\"rail-empty\">None recorded</p>",
+    "bulletins_html": "<ul class=\"rail-list\"><li>VSB6 — Vehicle Standards Bulletin, cited for hold-back valve location and calibration</li></ul>",
+    "author": "Cesco (source); encyclopedia seed by Emmanuel"
+  },
+  "toc": "none",
+  "search": {
+    "group": "Mounting manuals"
+  },
+  "figures": [
+    {
+      "src": "assets/mounting-oct26/water-holdback-valve.png",
+      "alt": "Figure from source, p. 1.",
+      "caption": "Figure 1 of 3. Figure from source, p. 1. Source: CHAPTER 5 - WATER SYS.docx — image1.emf"
+    },
+    {
+      "src": "assets/mounting-oct26/water-regulator-1.jpg",
+      "alt": "Figure from source, p. 2.",
+      "caption": "Figure 2 of 3. Figure from source, p. 2. Source: CHAPTER 5 - WATER SYS.docx — image2.jpeg"
+    },
+    {
+      "src": "assets/mounting-oct26/water-regulator-2.jpg",
+      "alt": "Figure from source, p. 2.",
+      "caption": "Figure 3 of 3. Figure from source, p. 2. Source: CHAPTER 5 - WATER SYS.docx — image3.jpeg"
+    }
+  ]
+}
