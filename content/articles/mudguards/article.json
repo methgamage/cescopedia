@@ -1,6 +1,6 @@
 {
   "slug": "mudguards",
-  "version": 1,
+  "version": 2,
   "seed_date": "2026-10-09",
   "title": "Mudguards",
   "dek": "Chapter 7 — Truck Mounting Instructions, revised October 2026",
@@ -21,7 +21,15 @@
       "href": null
     }
   ],
-  "approval": null,
+  "approval": {
+    "approved_by": "methgamage",
+    "approved_at": "2026-10-11T01:19:43+0000",
+    "summary": "E2E TEST: add a test paragraph and picture (throwaway, will be reverted)",
+    "proposal_id": "20261011-011943-27aa10",
+    "author_type": "human",
+    "proposer": "methgamage",
+    "from_version": 1
+  },
   "template": "mounting",
   "kicker": "Mounting manuals",
   "rail": {
@@ -37,5 +45,11 @@
   "search": {
     "group": "Mounting manuals"
   },
-  "figures": []
+  "figures": [
+    {
+      "src": "assets/uploads/e2e-pic.jpg",
+      "alt": "E2E test picture",
+      "caption": "E2E test caption"
+    }
+  ]
 }
