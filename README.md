@@ -13,7 +13,7 @@ Everything here is public plain HTML. There is no password and no encryption.
 4. **Approve = the owner merges the pull request** on GitHub. Nobody else can merge (see "Enforcement").
 5. **After the merge** `.github/workflows/apply-proposals.yml` runs `tools/apply_proposals.py`: archives the previous version in
    `content/versions/<article>/vNNN/` (date + approver = the merger), writes the change-log entry (summary + automatic diff counts), rebuilds
-   all pages / archive pages / history / `changelog.html` / homepage "Last edits" with `tools/build_site.py`, and commits to `main` with `GITHUB_TOKEN`.
+   all pages / archive pages / history / `changelog.html` / homepage "Last edits" with `tools/build_site.py`, and publishes the result to `main` with `GITHUB_TOKEN` (a short-lived `publish/*` branch + pull request that the workflow merges itself, because a protected `main` cannot be pushed to directly by `GITHUB_TOKEN` on a personal repo).
 6. **Grok** proposes through `tools/cescoedit.py` (pull request labelled `grok`); it can never merge. See `GROK-USAGE.md`.
 
 ## Layout

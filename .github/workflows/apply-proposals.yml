@@ -1,6 +1,6 @@
 # Runs ONLY after a change has been merged into main (push), never on a pull request, so a proposal cannot run any code.
 # Merging a proposal pull request = approval. This workflow then archives the old version, writes the change-log entry,
-# rebuilds the site and commits the result to main with GITHUB_TOKEN.
+# rebuilds the site and publishes the result to main (via a bot pull request, see below).
 name: Apply approved proposals
 on:
   push:
@@ -77,15 +77,33 @@ jobs:
           python3 tools/apply_proposals.py "${args[@]}" | tee "$RUNNER_TEMP/apply.log"
           echo "rc=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
           exit 0
-      - name: Commit to main (GITHUB_TOKEN)
+      - name: Publish through a bot pull request (GITHUB_TOKEN)
+        # main is protected by a ruleset (pull request required, no force push, no deletion, NO bypass actors). GitHub does not let
+        # GITHUB_TOKEN bypass such a rule on a personal repository, so the generated result goes in like any other change:
+        # a short-lived publish/* branch, a pull request, merged by the workflow itself.
+        env:
+          GH_TOKEN: ${{ github.token }}
+          APPROVER: ${{ steps.who.outputs.approver }}
+          PR: ${{ steps.who.outputs.pr }}
         run: |
+          set -euo pipefail
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
           if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
-          git commit -q -m "Publish approved proposal(s): $(grep -h '^APPLIED' "$RUNNER_TEMP/apply.log" | sed 's/^APPLIED //; s/ (.*//' | paste -sd, -) — approved by ${{ steps.who.outputs.approver }} (PR #${{ steps.who.outputs.pr }}) [skip ci]"
-          git pull --rebase -q origin main
-          git push origin HEAD:main
+          what=$(grep -h '^APPLIED' "$RUNNER_TEMP/apply.log" | sed 's/^APPLIED //; s/ (.*//' | paste -sd, - || true)
+          [ -n "$what" ] || what="proposal(s) that could not be applied (see PR comment)"
+          branch="publish/${PR:-direct}-$(date -u +%Y%m%d-%H%M%S)"
+          msg="Publish: ${what} — approved by ${APPROVER} (PR #${PR:-none}) [skip ci]"
+          git checkout -q -b "$branch"
+          git commit -q -m "$msg"
+          git push -q origin "$branch"
+          url=$(gh pr create --base main --head "$branch" --title "$msg" \
+                --body "Automatic publish of an approved proposal (approver: ${APPROVER}, source PR: #${PR:-none}). Archive, change log and regenerated pages. Created and merged by the workflow.")
+          for i in 1 2 3 4 5; do
+            if gh pr merge "$url" --squash --delete-branch; then break; fi
+            sleep $((i*5)); [ "$i" = 5 ] && { echo "::error::could not merge the publish PR $url"; exit 1; }
+          done
       - name: Comment on the pull request
         if: steps.who.outputs.pr != ''
         env:
